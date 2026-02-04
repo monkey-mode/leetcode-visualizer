@@ -1,6 +1,34 @@
-# LeetCode Visualizer
+# LeetCode Visualizer 🎯
 
-This is the public entry point for the **LeetCode Visualizer** platform. It serves as a wrapper for the core visualization engine and frontend interface.
+> **Interactive algorithm visualization platform for LeetCode problems**
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-teal?style=for-the-badge)](https://leetcode-visualizer-monkey.vercel.app/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+
+**🌐 Official Website:** [https://leetcode-visualizer-monkey.vercel.app/](https://leetcode-visualizer-monkey.vercel.app/)
+
+## ✨ Features
+
+- 🎬 **Step-by-step visualization** of algorithm execution
+- 🎮 **Interactive controls** - Play, pause, step forward/backward, and fast-forward through algorithm steps
+- 🎨 **Beautiful UI** - Modern dark theme with glassmorphic design and smooth animations
+- 📊 **Multiple visualizers** - Binary Search, Permutations, Jump Game, Two Sum, and more
+- 🔍 **Call stack tracking** - Visualize recursive function calls and backtracking
+- ⚡ **Real-time updates** - See variable changes and algorithm state in real-time
+
+## 🎥 Showcase
+
+### Homepage
+![LeetCode Visualizer Homepage](./assets/homepage.png)
+*Modern interface showing available algorithm visualizations*
+
+### Binary Search Visualization (Find Minimum in Rotated Sorted Array)
+![Binary Search Visualization](./assets/findmin_visualization.png)
+*Step 5 of 8: Interactive visualization showing L (Left), M (Mid), and R (Right) pointers navigating through the rotated array [3, 4, 5, 1, 2]. The algorithm is actively searching for the minimum element.*
+
+### Permutations with Backtracking
+![Permutations Visualization](./assets/permutations_visualization.png)
+*Step 15: Call stack visualization demonstrating recursive backtracking with multiple active frames. Shows the algorithm exploring different permutation branches with local variables tracked in each frame.*
 
 ## 🏗 Architecture
 
@@ -12,7 +40,7 @@ This project is structured using Git Submodules:
 ### Prerequisites
 -   Node.js (v18+) & Bun/pnpm/npm
 -   Python 3.8+
--   Access to the private `leetcode-visualizer-core` repository (if you are a collaborator).
+-   Access to the private `leetcode-visualizer-core` repository (if you are a collaborator)
 
 ### Installation
 
@@ -34,6 +62,23 @@ This project is structured using Git Submodules:
     # Follow backend/frontend setup guide inside core/
     ```
 
-## 🤝 Contributing
+## 🎮 Usage
 
-This wrapper repository tracks the release versions of the core engine. To contribute to the visualization logic, please submit PRs to the `leetcode-visualizer-core` repository.
+Visit [https://leetcode-visualizer-monkey.vercel.app/](https://leetcode-visualizer-monkey.vercel.app/) to start visualizing algorithms immediately!
+
+### Controls
+- **▶️ Play/Pause** - Auto-play through algorithm steps
+- **⏮️ Previous** - Step backward one frame
+- **⏭️ Next** - Step forward one frame
+- **⏪ Fast Rewind** - Jump back 10 steps
+- **⏩ Fast Forward** - Jump ahead 10 steps
+- **🔄 Reset** - Return to initial state
+- **🎚️ Speed** - Adjust playback speed (50ms - 1000ms)
+
+## 📝 License
+
+MIT License - feel free to use this project for learning and educational purposes!
+
+---
+
+**Built with ❤️ for the coding community**
